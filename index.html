@@ -22,91 +22,113 @@
 		<script src="assets/js/script.js" defer></script>
 	</head>
 	<body>
+		<header>
+			<a href="#main-content" class="skip-nav-link">Skip to main content</a>
 
-        <header>
-            <div class="logo">
-                <a href="#home">Rui Pereira</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#experience">Experiência</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
+			<!-- Logo -->
+			<a href="#main-content" class="logo">RP</a>
 
-		<section>
-			<h1>Rui Pereira</h1>
-			<h2>Full-Stack Developer</h2>
-		</section>
+			<!-- hamburger button -->
+			<button class="hamburger-btn" aria-controls="primary-navigation" aria-expanded="false">
+				<svg fill="var(--haburger-color)" class="hamburger" viewBox="0 0 100 100" width="35">
+					<rect class="line top" width="80" height="10" x="10" y="25" rx="5"></rect>
+					<rect class="line middle" width="80" height="10" x="10" y="45" rx="5"></rect>
+					<rect class="line bottom" width="80" height="10" x="10" y="65" rx="5"></rect>
+				</svg>
+			</button>
 
-		<section>
-			<h3>Formação Acadêmica</h3>
-			<ul>
-				<li>Curso de Full-Stack Developer, [Instituição de Ensino], [Ano de Conclusão]</li>
-			</ul>
-		</section>
+			<!-- Navigation -->
+			<nav class="navbar">
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a class="nav-link" href="#about">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Habilidades</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#experience">Experiência</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projetos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contato</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-		<section>
-			<h3>Habilidades Técnicas</h3>
-			<ul>
-				<li>Linguagens de Programação: JavaScript, Python, Java, C++</li>
-				<li>Tecnologias Web: HTML5, CSS3, React, Node.js</li>
-				<li>Bancos de Dados: MySQL, MongoDB</li>
-				<li>Versionamento: Git, GitHub</li>
-				<li>Frameworks: Express.js, Spring Boot</li>
-				<li>Ferramentas de Desenvolvimento: Visual Studio Code, Eclipse</li>
-				<li>Metodologias Ágeis: Scrum</li>
-			</ul>
-		</section>
+		<main id="main-content">
+			<section>
+				<h1>Rui Pereira</h1>
+				<h2>Full-Stack Developer</h2>
+			</section>
 
-		<section>
-			<h3>Experiência Profissional</h3>
-			<ul>
-				<li>
-					[Nome da Empresa], [Período]<br />
-					- Desenvolvimento e manutenção de aplicações web usando tecnologias como HTML, CSS, JavaScript, e
-					frameworks como React e Node.js.<br />
-					- Participação ativa em todas as fases do ciclo de desenvolvimento de software, desde a concepção
-					até a implantação e testes.<br />
-					- Colaboração com equipes multidisciplinares para projetos conjuntos.
-				</li>
-			</ul>
-		</section>
+			<section>
+				<h3>Formação Acadêmica</h3>
+				<ul>
+					<li>Curso de Full-Stack Developer, [Instituição de Ensino], [Ano de Conclusão]</li>
+				</ul>
+			</section>
 
-		<section>
-			<h3>Projetos Pessoais</h3>
-			<ul>
-				<li>[Nome do Projeto], [Descrição], [Tecnologias Utilizadas], [Link (se aplicável)]</li>
-			</ul>
-		</section>
+			<section>
+				<h3>Habilidades Técnicas</h3>
+				<ul>
+					<li>Linguagens de Programação: JavaScript, Python, Java, C++</li>
+					<li>Tecnologias Web: HTML5, CSS3, React, Node.js</li>
+					<li>Bancos de Dados: MySQL, MongoDB</li>
+					<li>Versionamento: Git, GitHub</li>
+					<li>Frameworks: Express.js, Spring Boot</li>
+					<li>Ferramentas de Desenvolvimento: Visual Studio Code, Eclipse</li>
+					<li>Metodologias Ágeis: Scrum</li>
+				</ul>
+			</section>
 
-		<section>
-			<h3>Idiomas</h3>
-			<ul>
-				<li>Português (nativo)</li>
-				<li>Inglês (avançado)</li>
-			</ul>
-		</section>
+			<section>
+				<h3>Experiência Profissional</h3>
+				<ul>
+					<li>
+						[Nome da Empresa], [Período]<br />
+						- Desenvolvimento e manutenção de aplicações web usando tecnologias como HTML, CSS, JavaScript,
+						e frameworks como React e Node.js.<br />
+						- Participação ativa em todas as fases do ciclo de desenvolvimento de software, desde a
+						concepção até a implantação e testes.<br />
+						- Colaboração com equipes multidisciplinares para projetos conjuntos.
+					</li>
+				</ul>
+			</section>
 
-		<section>
-			<h3>Certificações</h3>
-			<ul>
-				<li>[Nome da Certificação], [Instituição], [Ano]</li>
-			</ul>
-		</section>
+			<section>
+				<h3>Projetos Pessoais</h3>
+				<ul>
+					<li>[Nome do Projeto], [Descrição], [Tecnologias Utilizadas], [Link (se aplicável)]</li>
+				</ul>
+			</section>
 
-		<section>
-			<h3>Interesses Pessoais</h3>
-			<p>
-				Além da programação, tenho interesse em aprender constantemente sobre as últimas tendências
-				tecnológicas. Também gosto de ler, viajar e estar em contato com a natureza.
-			</p>
-		</section>
+			<section>
+				<h3>Idiomas</h3>
+				<ul>
+					<li>Português (nativo)</li>
+					<li>Inglês (avançado)</li>
+				</ul>
+			</section>
 
+			<section>
+				<h3>Certificações</h3>
+				<ul>
+					<li>[Nome da Certificação], [Instituição], [Ano]</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Interesses Pessoais</h3>
+				<p>
+					Além da programação, tenho interesse em aprender constantemente sobre as últimas tendências
+					tecnológicas. Também gosto de ler, viajar e estar em contato com a natureza.
+				</p>
+			</section>
+		</main>
 		<footer>
 			<p>
 				Se você está procurando um desenvolvedor Full-Stack dedicado, apaixonado por tecnologia e que busca
