@@ -26,7 +26,7 @@
 			<a href="#main-content" class="skip-nav-link">Skip to main content</a>
 
 			<!-- Logo -->
-			<a href="#main-content" class="logo">RP</a>
+			<a href="#hero" class="logo">RP</a>
 
 			<!-- hamburger button -->
 			<button class="hamburger-btn" aria-controls="primary-navigation" aria-expanded="false">
@@ -41,102 +41,293 @@
 			<nav class="navbar">
 				<ul class="nav-list">
 					<li class="nav-item">
+						<a class="active nav-link" href="#hero">Home</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="#about">Sobre</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#skills">Habilidades</a>
+						<a class="nav-link" href="#formacao">Formação</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#experience">Experiência</a>
+						<a class="nav-link" href="#experiencia">Experiência</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projetos</a>
+						<a class="nav-link" href="#projetos">Projetos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contato</a>
+						<a class="nav-link" href="#contato">Contato</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 
 		<main id="main-content">
-			<section>
-				<h1>Rui Pereira</h1>
-				<h2>Full-Stack Developer</h2>
+			<section class="hero" id="hero">
+				<img class="hero__image" src="assets/img/me.jpg" alt="" />
+
+				<div class="hero__content">
+					<span class="hero__accent">Olá, sou o</span>
+					<h1>Rui A. Pereira</h1>
+					<h2>Full-Stack Developer</h2>
+					<div class="hero__contacts">
+						<a href="#">
+							<i class="fa-solid fa-envelope"></i>
+							email@email.com
+						</a>
+						<a href="#">
+							<i class="fa-solid fa-phone"></i>
+							+351 123 456 789
+						</a>
+						<a href="#">
+							<i class="fa-solid fa-map-location-dot"></i>
+							Malveira, Mafra, Portugal
+						</a>
+					</div>
+					<div class="hero__socials">
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							<i class="fab fa-github"></i>
+						</a>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="about" id="about">
+				<img class="about__image" src="assets/img/comic-1.png" alt="about me image" />
+				<article>
+					<h2>Sobre mim</h2>
+					<p>Olá, sou o Rui Pereira!</p>
+					<p>
+						Sou apaixonado por programação desde que me lembro de existirem computadores. Embora a minha
+						vida e carreira não tenham seguido inicialmente um caminho nessa área, nunca deixei de
+						programar. Sempre que me deparo com um problema que pode ser resolvido por meio de um programa
+						ou aplicativo, ou quando encontro oportunidades para melhorar o desempenho no trabalho, procuro
+						criar algo que facilite o meu trabalho ou o dos meus colegas.
+					</p>
+					<p>
+						Nos últimos anos, desenvolvi uma série de aplicações utilizando linguagens como PHP, .NET e
+						React para uso interno no meu ambiente de trabalho. Essas soluções ajudaram a otimizar processos
+						e aprimorar a eficiência das equipes com as quais trabalhei.
+					</p>
+
+					<p>
+						Este ano, concluí um curso de desenvolvimento full-stack, ampliando ainda mais meus
+						conhecimentos e habilidades técnicas. Agora, estou à procura de uma mudança de carreira para
+						seguir minha verdadeira paixão: programar.
+					</p>
+
+					<p>
+						Uma das minhas maiores vantagens é a minha capacidade de absorver informações rapidamente. Sou
+						um aprendiz ávido e posso dominar novas linguagens de programação e frameworks com facilidade.
+						Estou sempre disposto a enfrentar desafios e procurar soluções criativas para problemas
+						complexos.
+					</p>
+
+					<p>
+						Estou entusiasmado com a oportunidade de trabalhar em projetos desafiantes, onde possa aplicar a
+						minha experiência e conhecimentos de programação de modo a criar soluções eficientes e
+						inovadoras. Estou aberto a novas oportunidades e colaborações, pois acredito que o trabalho em
+						equipa é fundamental para alcançar resultados excepcionais.
+					</p>
+
+					<p>
+						Se está à procura de um desenvolvedor com uma paixão genuína pela programação, que traga consigo
+						um conjunto diversificado de habilidades e uma mente ágil, estarei pronto para contribuir com o
+						sucesso do vosso projeto.
+					</p>
+				</article>
+			</section>
+
+			<section id="formacao">
+				<article>
+					<h2>Formação Académica</h2>
+					<ul class="formacao-academica">
+						<li>
+							<span>2022-2023, Lisboa, Portugal</span>
+							<h4>Curso de Full-Stack Developer, Codemaster</h4>
+							<p>info: <a href="https://codemaster.pt">codemaster.pt</a></p>
+						</li>
+						<li>
+							<span>2020, Londres, Reino Unido</span>
+							<h4>Professional skills for DGR instructors - Categories 1,2,3,6 IATA</h4>
+							<p>info: <a href="www.iata.org/training">iata.org</a></p>
+						</li>
+						<li>
+							<span>2020, Lisboa, Portugal</span>
+							<h4>
+								Dangerous Goods Regulations (DGR) - Initial Category 6, portway, handling de portugal.
+							</h4>
+							<p>Info: <a href="https://www.portway.pt/">portway.pt</a></p>
+						</li>
+						<li>
+							Ver toda a formação académica
+							<p>
+								<a href="#">Ver</a>
+							</p>
+						</li>
+					</ul>
+				</article>
+
+				<article>
+					<h2>Alguns dos meus conhecimentos são:</h2>
+					<div class="pills">
+						<span class="pill">
+							<img src="assets/img/svg/php-1.svg" alt="php" />
+						</span>
+						<span class="pill">
+							<img src="assets/img/svg/html-1.svg" alt="html5" />
+						</span>
+						<span class="pill">
+							<img src="assets/img/svg/css-3.svg" alt="css3" />
+						</span>
+						<span class="pill">
+							<img src="assets/img/svg/mysql-6.svg" alt="mysql" />
+						</span>
+						<span class="pill">
+							<img src="assets/img/svg/javascript-1.svg" alt="javascript" />
+						</span>
+						<span class="pill">
+							<img src="assets/img/svg/git-icon.svg" alt="git" />
+						</span>
+						<span class="pill invert">
+							<img src="assets/img/svg/github-icon-1.svg" alt="github" />
+						</span>
+						<span class="pill">
+							<img src="assets/img/svg/c--4.svg" alt="c#" />
+						</span>
+						<span class="pill">
+							<img src="assets/img/svg/dot-net-core-7.svg" alt=".net" />
+						</span>
+						<span class="pill">
+							<img src="assets/img/svg/xamarin.svg" alt="xamarin" />
+						</span>
+					</div>
+				</article>
+			</section>
+
+			<section id="experiencia">
+				<article>
+					<h2>Experiência Profissional</h2>
+					<ul class="experiencia-profissional">
+						<li>
+							<span>2019 - atualmente, Lisboa, Portugal</span>
+							<p>Formador / Coordenador pedagógico, portway, handling de portugal.</p>
+							<div class="accordion">detalhes:</div>
+							<div class="panel">
+								<p>
+									Acompanhar o projeto pedagógico "MyWay" e coordenar o planeamento do mesmo,
+									estabelecer relações entre os formadores que incluem o grupo nas diversas escalas e
+									incentivar a formação contínua dos formadores. Planear estratégias que possibilitem
+									a melhoria de resultados dos formandos. Avaliar e acompanhar o processo de ensino e
+									aprendizagem, assim como os resultados de desempenho dos formandos. Garantir e
+									estimular a participação dos formadores e formadores, garantindo um trabalho que
+									seja produtivo e motivador. Organizar e desenvolver os manuais necessários ao
+									processo de formação. Promover práticas inovadoras de ensino e incentivar a
+									utilização de tecnologias educacionais.
+								</p>
+							</div>
+						</li>
+						<li>
+							<span>2018 - 2019, Lisboa, Portugal</span>
+							<p>
+								Sub coordenador do serviço MyWay / formador BPMR / responsável assiduidade, portway,
+								handling de portugal.
+							</p>
+							<div class="accordion">detalhes:</div>
+							<div class="panel">
+								<p>
+									Planear, supervisionar e coordenar as actividades do Serviço. Implementar processos
+									de melhoria do funcionamento do Serviço. Garantir a operacionalidade dos serviços,
+									através, por exemplo, do planeamento das escalas de trabalho, da verificação da
+									eficiência dos equipamentos, da gestão das assistências. Gerir escalas de trabalho,
+									turnos e folgas de acordo com as necessidades operacionais. Avaliar e melhorar as
+									competências individuais dos colaboradores, nomeadamente promovendo acções de
+									formação/refrescamento. Contactar e reunir, sempre que possível, com os Supervisores
+									e restante staff no sentido de procederem, em conjunto, à análise das situações
+									ocorridas durante as operações de assistência e à definição de procedimentos a
+									seguir perante as mesmas. Cumprir tarefas e responsabilidades definidas nos
+									documentos do SGQA (Sistema de Gestão da Qualidade e Ambiente) e regras de Safety e
+									Security. Marcação e realização das formações de BPMR, MyWay LIS e OPO. Elaboração
+									escalas de “on-job training” (apenas LIS). Controlo e correcção de assiduidade via
+									plataforma TEMPUS.
+								</p>
+							</div>
+						</li>
+						<li>
+							<span>2017 - 2018, Lisboa, Portugal</span>
+							<p>
+								Formador BPMR / responsável assiduidade MyWay e terminal de bagagem / Administrativo,
+								portway, handling de portugal.
+							</p>
+							<div class="accordion">detalhes:</div>
+							<div class="panel">
+								<p>
+									Marcação e realização das formações de BPMR, MyWay LIS e OPO. Elaboração escalas de
+									“on-job training” (apenas LIS). EXPERIÊNCIA PROFISSIONAL Controlo e correcção de
+									assiduidade via plataforma TEMPUS. Apoio à coordenação Airport Support Serviçes.
+									Serviços administrativos, elaboração de escalas, lançamento de facturas.
+								</p>
+							</div>
+						</li>
+						<li>
+							<span>2008 - 2017, Lisboa, Portugal</span>
+							<p>Supervisor MyWay, portway, handling de portugal.</p>
+							<div class="accordion">detalhes:</div>
+							<div class="panel">
+								<p>
+									Supervisionar o serviço de assistência a passageiros de mobilidade reduzida.
+									Controlo de assiduidade e faltas. Registo do serviço via sistema informático.
+									Avaliar prioridades e tomar decisões em conforme. Planeamento da operação. Efetuar
+									Vistorias. Distribuir o serviço pelos vários colaboradores. Relações públicas.
+									Refutar eventuais atrasos.
+								</p>
+							</div>
+						</li>
+						<li>
+							<span>2005 - 2018, Lisboa, Portugal</span>
+							<p>Operador de assistência em escala, portway, handling de portugal.</p>
+							<div class="accordion">detalhes:</div>
+							<div class="panel">
+								<p>
+									Passagem pelos departamentos de Carga, informática e bagagem até Maio de 2008 altura
+									em que comecei a desempenhar funções como Supervisor do serviço MyWay.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</article>
+			</section>
+
+			<section id="projetos">
+				<article>
+					<h3>Projetos Pessoais</h3>
+					<ul>
+						<li>[Nome do Projeto], [Descrição], [Tecnologias Utilizadas], [Link (se aplicável)]</li>
+					</ul>
+				</article>
 			</section>
 
 			<section>
-				<h3>Formação Acadêmica</h3>
-				<ul>
-					<li>Curso de Full-Stack Developer, [Instituição de Ensino], [Ano de Conclusão]</li>
-				</ul>
-			</section>
-
-			<section>
-				<h3>Habilidades Técnicas</h3>
-				<ul>
-					<li>Linguagens de Programação: JavaScript, Python, Java, C++</li>
-					<li>Tecnologias Web: HTML5, CSS3, React, Node.js</li>
-					<li>Bancos de Dados: MySQL, MongoDB</li>
-					<li>Versionamento: Git, GitHub</li>
-					<li>Frameworks: Express.js, Spring Boot</li>
-					<li>Ferramentas de Desenvolvimento: Visual Studio Code, Eclipse</li>
-					<li>Metodologias Ágeis: Scrum</li>
-				</ul>
-			</section>
-
-			<section>
-				<h3>Experiência Profissional</h3>
-				<ul>
-					<li>
-						[Nome da Empresa], [Período]<br />
-						- Desenvolvimento e manutenção de aplicações web usando tecnologias como HTML, CSS, JavaScript,
-						e frameworks como React e Node.js.<br />
-						- Participação ativa em todas as fases do ciclo de desenvolvimento de software, desde a
-						concepção até a implantação e testes.<br />
-						- Colaboração com equipes multidisciplinares para projetos conjuntos.
-					</li>
-				</ul>
-			</section>
-
-			<section>
-				<h3>Projetos Pessoais</h3>
-				<ul>
-					<li>[Nome do Projeto], [Descrição], [Tecnologias Utilizadas], [Link (se aplicável)]</li>
-				</ul>
-			</section>
-
-			<section>
-				<h3>Idiomas</h3>
-				<ul>
-					<li>Português (nativo)</li>
-					<li>Inglês (avançado)</li>
-				</ul>
-			</section>
-
-			<section>
-				<h3>Certificações</h3>
-				<ul>
-					<li>[Nome da Certificação], [Instituição], [Ano]</li>
-				</ul>
-			</section>
-
-			<section>
-				<h3>Interesses Pessoais</h3>
+				<h2>Contacto</h2>
 				<p>
-					Além da programação, tenho interesse em aprender constantemente sobre as últimas tendências
-					tecnológicas. Também gosto de ler, viajar e estar em contato com a natureza.
+					Se procura um programador Full-Stack dedicado, apaixonado por tecnologia e que prefere soluções
+					inovadoras, estarei pronto para enfrentar novos desafios e contribuir para o sucesso dos seus
+					projetos. Entre em contato comigo através do e-mail
+					<a href="mailto:ruisantos021@gmail.com">ruisantos021@gmail.com</a> ou pelo telefone +351 92 729 50
+					97.
 				</p>
+				<p>
+					Estou ansioso para conversar e discutir como posso ajudar a alcançar os seus objetivos tecnológicos.
+				</p>
+				<p>Atenciosamente,<br />Rui Pereira</p>
 			</section>
 		</main>
-		<footer>
-			<p>
-				Se você está procurando um desenvolvedor Full-Stack dedicado, apaixonado por tecnologia e que busca
-				soluções inovadoras, estou pronto para enfrentar novos desafios e contribuir para o sucesso dos
-				projetos. Entre em contato comigo através do e-mail [seu email] ou pelo telefone [seu número].
-			</p>
-			<p>Estou ansioso para conversar e discutir como posso ajudar a alcançar seus objetivos tecnológicos.</p>
-			<p>Atenciosamente,<br />Rui Pereira</p>
-		</footer>
+		<footer></footer>
 	</body>
 </html>
